@@ -1,14 +1,16 @@
 # ClimbDATMountain
 Official repository for tools created for the Climb DAT Mountain project
 
-The objective of the project is to identify advantages of decentralized web technologies for online and offline education.
-We also want to be open about the limitations of current technologies (for example, IP addresses can be disclosed if you are not using an anonymizer service), so that educators can determine whether these technologies fit with their organizations threat model.  This project will have dependencies on future versions of the DAT protocol and Beaker Browser, so it will evolve as new features such as DAT Mounts, Identity, and Multiwriter are released.
+The objective of this project is to identify advantages of decentralized web technologies for online and offline education.
+We also want to be open about the limitations of current technologies (for example, IP addresses can be disclosed if you are not using an anonymizer service), so that educators can determine whether these technologies fit with their organization's threat model.  This project will have dependencies on future versions of the DAT protocol and Beaker Browser, so it will evolve as new features such as DAT Mounts, Identity, and Multiwriter are released.
 
 The current model is expected to include the following features:
 * Instructor creates webpages for class using components developed in Polymer lit-element.
 * Instructor creates worksheets for students as pages within the class.
 * Instructor creates data files that describe linkages among webpages and externalize any data used by the pages.
 * Instructor controls which webpages are made available to the class based on the class schedule.  Nice to have: webpages are made available based on individual student mastery.
+* All versions of the webpages developed by the instructor are automatically archived and accessible using Beaker Browser.
+* DAT Identity will provide a way for the Instructor and Students to authenticate to a class without logging in - it will be based on a personal webpage they create and select.  The class will further authorize students for specific functions based on the public key of their personal webpage.
 * Students will register for a class and will be able to decide what profile information they want to share with the class.
 * Students will use Beaker to make an editable copy of the class for offline use.  Certain pages of the class will be designated as worksheets where the instructor will provide instructions on how to edit them to complete assignments.
 * Students will create new Beaker websites to be used for information they wish to share with their instructor and other students.  An introductory self-paced class on how to install and use the Beaker browser will be made available.
